@@ -1,0 +1,402 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1660px) {
+	.image-billbord {
+		margin-right: -50px;
+	}
+.image-billbord img {
+	max-width: 560px;
+}
+.title-big {
+    font-size: 45px;
+    line-height: 56px;
+    }
+    .title-big span {
+    font-size: 30px;
+    line-height: 45px;
+}
+.descr-big {
+    font-size: 22px;
+    line-height: 30px;
+}
+.billbord .descr-big {
+    padding-bottom: 30px;
+}
+.advantages-wrap {
+    margin-top: -255px;
+    top: 130px;
+    }
+    .block-form {
+    padding: 60px 110px;
+    padding-bottom: 30px;
+}
+}
+@media only screen and (max-width : 1530px) {
+.title-big {
+    font-size: 40px;
+    line-height: 49px;
+}
+.title-big span {
+    font-size: 27px;
+    line-height: 41px;
+}
+.descr-big {
+    font-size: 20px;
+    line-height: 29px;
+}
+.billbord .title-big {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.image-billbord img {
+    max-width: 500px;
+}
+.image-billbord {
+    margin-right: -30px;
+}
+.badge {
+    top: 40px;
+    left: 0;
+}
+.item-service {
+	padding-left: 25px;
+}
+.item-service_simple {
+	padding-right: 25px;
+}
+.title-block {
+    font-size: 28px;
+    line-height: 40px;
+    }
+    .col-footer {
+    	width: 20%;
+    }
+}
+@media only screen and (max-width : 1430px) {
+.title-min {
+	font-size: 17px;
+}
+.block-form {
+    padding: 60px 80px;
+    padding-bottom: 30px;
+}
+.title-block {
+    font-size: 26px;
+    line-height: 30px;
+}
+}
+@media only screen and (max-width : 1330px) {
+.title-big {
+    font-size: 33px;
+    line-height: 43px;
+}
+.title-big span {
+    font-size: 23px;
+    line-height: 32px;
+}
+.descr-big {
+    font-size: 17px;
+    line-height: 24px;
+}
+.descr-form {
+    font-size: 14px;
+    padding-bottom: 13px;
+    }
+    .billbord .descr-big {
+    padding-bottom: 20px;
+}
+.image-billbord img {
+    max-width: 454px;
+}
+.item-advantage {
+    padding: 25px 20px;
+    padding-bottom: 35px;
+    padding-right: 120px;
+}
+.title-section {
+    font-size: 32px;
+    line-height: 40px;
+}
+.title-block {
+    font-size: 23px;
+    line-height: 27px;
+}
+.col-footer {
+    width: 23%;
+}
+
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.block-form {
+    padding: 30px 35px;
+}
+.col-title {
+	width: 100%;
+}
+.block-form .title-block {
+	padding-bottom: 20px;
+	text-align: center;
+}
+.col-footer {
+    width: 29%;
+}
+.services {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.row_advantages > div {
+	padding: 0 6px;
+}
+.row_advantages {
+	margin: 0 -6px;
+}
+.title-big {
+    font-size: 26px;
+    line-height: 36px;
+}
+.title-big {
+    font-size: 26px;
+    line-height: 36px;
+}
+.title-big span {
+    font-size: 18px;
+    line-height: 23px;
+}
+.descr-big {
+    font-size: 14px;
+    line-height: 21px;
+}
+.descr-form {
+    font-size: 13px;
+    }
+    .item-input input, .item-form input {
+    	height: 55px;
+    }
+    .btn-main {
+    height: 55px;
+    font-size: 14px;
+}
+.logo img {
+    width: 165px;
+    }
+    .header {
+    	font-size: 13px;
+    }
+    .phone-main {
+    font-size: 16px;
+}
+.btn-social {
+	margin-right: 10px;
+}
+.billbord {
+    padding-top: 90px;
+    }
+    .badge {
+    	    top: 18px;
+    left: -25px;
+    width: 130px;
+    height: 130px;
+    font-size: 13px;
+    padding: 0 30px;
+}
+.badge span {
+    font-size: 21px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.header-center {
+	display: none;
+}
+.image-billbord {
+	display: none;
+}
+.advantages-wrap {
+    margin-top: 0;
+    top: 0;
+}
+.billbord .row > div {
+	position: static;
+}
+.billbord .container {
+	position: relative;
+}
+.billbord__left {
+	padding-right: 150px;
+}
+.badge {
+	right: 0;
+	left: auto;
+}
+.row_advantages > div {
+	margin-top: 25px;
+}
+.item-advantage {
+	min-height: 180px;
+}
+.item-advantage__image img {
+	max-height: 100%;
+}
+.item-advantage__image {
+	top: 0;
+}
+.services {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.title-section {
+    font-size: 25px;
+    line-height: 29px;
+}
+.row_services > div {
+    margin-top: 25px;
+}
+.row_services > div:nth-child(1) .item-service {
+    padding-right: 260px;
+}
+.billbord {
+	padding-bottom: 40px;
+}
+.block-form .item-input {
+	margin-bottom: 20px;
+}
+.col-footer {
+    width: initial;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.logo-wrap .logo-descr {
+	display: none;
+}
+.billbord__left {
+	padding-right: 15px;
+}
+.billbord .title-big {
+	padding-right: 130px;
+}
+.item-service,
+.row_services > div:nth-child(1) .item-service {
+	padding: 30px;
+}
+.item-service__image {
+	opacity: 0.4;
+}
+.col-footer {
+	padding: 7px 15px;
+	width: 100%;
+	text-align: center;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.logo img {
+    width: 140px;
+}
+.phone-main {
+    font-size: 14px;
+}
+.btn-social {
+	width: 25px;
+	height: 25px;
+	font-size: 14px;
+	margin-right: 7px;
+}
+.title-big {
+    font-size: 21px;
+    line-height: 27px;
+}
+.billbord .title-big {
+    padding-right: 77px;
+}
+.badge {
+    width: 105px;
+    height: 105px;
+    font-size: 12px;
+    padding: 0 22px;
+}
+.badge span {
+    font-size: 17px;
+}
+.item-advantage {
+	padding-right: 95px;
+}
+.title-min {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.block-form {
+    padding: 30px 20px;
+}
+.services .block-form {
+	margin-top: 35px;
+}
+.item-service__image {
+	transform: scale(0.7);
+	transform-origin: 100% 100%;
+}
+.item-service, .row_services > div:nth-child(1) .item-service {
+	padding: 25px 20px;
+}
+.item-service p {
+    margin-bottom: 15px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.container {
+  
+}
+}
+@media (min-width: 1330px) {
+	.container {
+    max-width: 1300px;
+}
+}
+@media (min-width: 1430px) {
+	.container {
+    max-width: 1400px;
+}
+}
+@media (min-width: 1530px) {
+	.container {
+    max-width: 1500px;
+}
+}
+@media (min-width: 1660px) {
+	.container {
+    max-width: 1630px;
+}
+}
